@@ -92,6 +92,6 @@ def main():
 
     for _ in range(10):
         sent = sample_sentence(contexts_to_probs)
-        print(sent)
+        print(" ".join(sent))
 
 if __name__ == "__main__": main()
